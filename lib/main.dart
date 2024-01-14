@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nc_flutter_animations_work/screens/box_circle_screen.dart';
+import 'package:nc_flutter_animations_work/screens/pomodoro_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BoxCircleScreen(),
+      home: const PomodoroScreen(),
     );
   }
 }
